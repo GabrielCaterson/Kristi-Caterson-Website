@@ -67,3 +67,7 @@
 .logo-image {
   width: max(300px, 30%);
 }
+
+.art-image {
+  width: 33%;
+}

@@ -10,14 +10,21 @@ function App() {
         <p>
         Inspired Design for Gracious Living
         </p>
-        
-        
 
       </header>
 
       <img className="logo-image" src={ process.env.PUBLIC_URL + "/pictures/hand.png" }></img>
-      
+
+
+      <section> 
+      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillow.jpg" }></img>
+      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes.jpg" }></img>
+      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillows.jpg" }></img>
+      </section>
+
     </div>
+    
+
   );
 }
 
