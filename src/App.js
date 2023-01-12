@@ -15,11 +15,31 @@ function App() {
 
       <img className="logo-image" src={ process.env.PUBLIC_URL + "/pictures/hand.png" }></img>
 
+      <section className="three-panel"> 
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 1.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 3.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 2.jpg" }></img>
+      </section>
 
-      <section> 
-      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillow.jpg" }></img>
-      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes.jpg" }></img>
-      <img className="art-image" src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillows.jpg" }></img>
+      <section className="three-panel"> 
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 5.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 4.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/Kristi blue 7.jpg" }></img>
+      </section>
+
+      <section className="three-panel"> 
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillow.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/brushstrokes.jpg" }></img>
+        <img className="art-image" 
+              src={ process.env.PUBLIC_URL + "/pictures/brushstrokes-pillows.jpg" }></img>
       </section>
 
     </div>

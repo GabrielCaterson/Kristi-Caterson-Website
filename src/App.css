@@ -69,5 +69,12 @@
 }
 
 .art-image {
-  width: 33%;
+  width: 33.333334%;
+}
+
+.three-panel {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  height: 33.33333333vw;
 }
