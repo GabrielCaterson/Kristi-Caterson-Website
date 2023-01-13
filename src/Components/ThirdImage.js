@@ -18,8 +18,8 @@ export class ThirdImage extends Component {
         
 
         return (
-			<section className="crop-1-box">
-                <img className={ "art-image " + this.props.crop + " " + this.props.animation }
+			<section className={ "crop-1-box" + " " + this.props.animationFrame } >
+                <img className={ "art-image " + this.props.crop + " " + this.props.animationImage }
                     src={ process.env.PUBLIC_URL + "/pictures/" + this.props.image }></img>
             </section>
 		);
