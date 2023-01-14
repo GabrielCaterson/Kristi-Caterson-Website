@@ -76,6 +76,12 @@ function App() {
 				<ThirdImage image="circle 3.jpg" crop=""/>
 			</section>
 
+			<section className="three-panel">
+				<ThirdImage image="start.jpg" crop="" />
+				<ThirdImage image="light navy.jpg" crop="" animationImage="flip-bulb"/>
+				<ThirdImage image="conquerer.jpg" crop=""/>
+			</section>
+
 
 		</div>
 		

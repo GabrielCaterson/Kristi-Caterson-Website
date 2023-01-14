@@ -81,6 +81,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 .pillow-panel {
@@ -218,4 +219,30 @@
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+.flip-bulb {
+	background-image: "./pictures/light blue.jpg";
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+
+	animation: flip-bulb-animation 5s linear normal infinite;
+  	z-index: 2;
+}
+
+@keyframes flip-bulb-animation {
+	0% {
+		transform: rotateY(180deg);
+	}
+	10% {
+	  transform: rotateY(0deg);
+	  background-image: "./pictures/light blue.jpg";
+	}
+	90% {
+		transform: rotateY(0deg);
+	}
+	100 {
+		transform: rotateY(180deg);
+	}
+
 }
