@@ -11,9 +11,11 @@ function App() {
 				<img className="logo-image" 
 					src={ process.env.PUBLIC_URL + "/pictures/KristiCaterson.png" }></img>
 
-				<p>
-					Inspired Design for Gracious Living
-				</p>
+				<section className="header-outside">
+					<p className="header-inside">
+						Inspired Design for Gracious Living
+					</p>
+				</section>
 
 			</header>
 
@@ -35,7 +37,7 @@ function App() {
 
 
 
-			<section className="three-panel">
+			<section className="three-panel short-panel">
 				<ThirdImage image="Love 1.jpg" crop=""/>
 				<ThirdImage image="Love 2.jpg" crop=""/>
 				<ThirdImage image="Love 3.jpg" crop=""/>
@@ -57,10 +59,22 @@ function App() {
 
 
 
-			<section className="three-panel pillow-panel">
+			<section className="three-panel short-panel">
 				<ThirdImage image="green pillow 1.jpg" crop=""/>
 				<ThirdImage image="green pillow 2.jpg" crop=""/>
 				<ThirdImage image="green pillow 3.jpg" crop=""/>
+			</section>
+
+			<section className="three-panel short-panel">
+				<ThirdImage image="green banner 1.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 2.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 3.jpg" crop="crop-4-image"/>
+			</section>
+
+			<section className="three-panel short-panel">
+				<ThirdImage image="green banner 4.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 5.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 6.jpg" crop="crop-4-image"/>
 			</section>
 
 
@@ -73,15 +87,29 @@ function App() {
 			<section className="three-panel">
 				<ThirdImage image="circle 1.jpg" crop="" animationImage="wobble"/>
 				<ThirdImage image="heart.jpg" crop=""/>
-				<ThirdImage image="circle 3.jpg" crop=""/>
+				<ThirdImage image="worship.jpg" crop=""/>
 			</section>
 
 			<section className="three-panel">
+				<ThirdImage image="love heart.jpg" crop=""/>
+				<ThirdImage image="truth.jpg" crop="crop-3-image" animationImage="white-shadow"/>
+				<ThirdImage image="circle 3.jpg" crop=""/>
+
+			</section>
+
+
+			<section className="three-panel">
 				<ThirdImage image="start.jpg" crop="" />
-				<ThirdImage image="light navy.jpg" crop="" animationImage="flip-bulb"/>
+				<ThirdImage image="transparent.png" crop="" overflow="no-crop" animationImage="flip-bulb"/>
 				<ThirdImage image="conquerer.jpg" crop=""/>
 			</section>
 
+
+			<div className="test-box-thing test-box-1"></div>
+			<div className="test-box-thing test-box-2"></div>
+			<div className="test-box-thing test-box-3"></div>
+			<div className="test-box-thing test-box-4"></div>
+			<div className="test-box-thing test-box-5"></div>
 
 		</div>
 		
