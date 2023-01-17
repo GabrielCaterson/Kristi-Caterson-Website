@@ -51,11 +51,18 @@ function App() {
 				<ThirdImage image="brushstrokes-pillows.jpg" 	crop=""/>
 			</section>
 
+
+			<section className={ "wide-panel" } >
+                <img className={ "wide-art-image " }
+                    src={ process.env.PUBLIC_URL + "/pictures/" + "Be 4.jpg"}></img>
+            </section>
+
 			<section className="three-panel">
 				<ThirdImage image="Be 1.jpg" crop=""/>
 				<ThirdImage image="Be 2.png" crop=""/>
 				<ThirdImage image="Be 3.jpg" crop="crop-2-image" animationImage="wobble"/>
 			</section>
+
 
 
 
@@ -65,17 +72,18 @@ function App() {
 				<ThirdImage image="green pillow 3.jpg" crop=""/>
 			</section>
 
-			<section className="three-panel short-panel">
+
+			{/*<section className="three-panel">
 				<ThirdImage image="green banner 1.jpg" crop="crop-4-image"/>
 				<ThirdImage image="green banner 2.jpg" crop="crop-4-image"/>
 				<ThirdImage image="green banner 3.jpg" crop="crop-4-image"/>
 			</section>
 
-			<section className="three-panel short-panel">
+			<section className="three-panel">
 				<ThirdImage image="green banner 4.jpg" crop="crop-4-image"/>
 				<ThirdImage image="green banner 5.jpg" crop="crop-4-image"/>
 				<ThirdImage image="green banner 6.jpg" crop="crop-4-image"/>
-			</section>
+			</section>*/}
 
 
 			<section className="three-panel">
@@ -92,7 +100,7 @@ function App() {
 
 			<section className="three-panel">
 				<ThirdImage image="love heart.jpg" crop=""/>
-				<ThirdImage image="truth.jpg" crop="crop-3-image" animationImage="white-shadow"/>
+				<ThirdImage image="truth.png" crop="crop-3-image" animationImage="white-shadow"/>
 				<ThirdImage image="circle 3.jpg" crop=""/>
 
 			</section>
@@ -104,13 +112,28 @@ function App() {
 				<ThirdImage image="conquerer.jpg" crop=""/>
 			</section>
 
+			<section className="ocean-container">
+				<div className="ocean">
+					<div className="wave"></div>
+					<div className="wave"></div>
+				</div>
+			</section>
 
-			<div className="test-box-thing test-box-1"></div>
-			<div className="test-box-thing test-box-2"></div>
-			<div className="test-box-thing test-box-3"></div>
-			<div className="test-box-thing test-box-4"></div>
-			<div className="test-box-thing test-box-5"></div>
+			<section className="three-panel">
+				<ThirdImage image="blue anchors.jpg"/>
+				<ThirdImage image="sail away.jpg"/>
+				<ThirdImage image="blue shells.jpg"/>
+			</section>
 
+			<section className="three-panel">
+				<ThirdImage image="mermaids.jpg"/>
+				<ThirdImage image="pink anchor.jpg"/>
+				<ThirdImage image="smooth sea.jpg"/>
+			</section>
+
+			<div className='test-thing'></div>
+
+			
 		</div>
 		
 
