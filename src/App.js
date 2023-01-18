@@ -119,8 +119,8 @@ function App() {
 				</div>
 			</section>
 
-			<section className="three-panel">
-				<ThirdImage image="blue anchors.jpg"/>
+			<section className="three-panel below-ocean-panel">
+				<ThirdImage image="blue anchors.jpg" animationImage="wobble wobble-duration-2" crop="crop-1-image"/>
 				<ThirdImage image="sail away.jpg"/>
 				<ThirdImage image="blue shells.jpg"/>
 			</section>
@@ -128,10 +128,14 @@ function App() {
 			<section className="three-panel">
 				<ThirdImage image="mermaids.jpg"/>
 				<ThirdImage image="pink anchor.jpg"/>
-				<ThirdImage image="smooth sea.jpg"/>
+				<ThirdImage image="smooth sea.jpg" animationImage="wobble" crop="crop-1-image"/>
 			</section>
 
-			<div className='test-thing'></div>
+			<section className="three-panel">
+				<ThirdImage image="baby blue shells.jpg"/>
+				<ThirdImage image="hope anchor.jpg"/>
+				<ThirdImage image="diamond anchor.jpg" />
+			</section>
 
 			
 		</div>

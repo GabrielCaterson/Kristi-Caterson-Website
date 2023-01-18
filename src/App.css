@@ -175,6 +175,11 @@
 	animation-direction: alternate;
 }
 
+.wobble-duration-2 {
+	animation-duration: 6.2s;
+
+}
+
 @keyframes wobble-animation {
 	0% {
 		transform: rotate(5deg);
@@ -469,10 +474,22 @@
 	left:0;
 	background: #015871;
 	filter: saturate(100%);
+	box-shadow: inset 0px -45px 25px -25px #053468;
+}
+
+.below-ocean-panel {
+	box-shadow: inset 0px 5px 25px 25px #f53468;
+	z-index: 10;
+	background-color: purple;
+	position: relative;
+	/*height: 5vw;
+	width: 100%;
+	padding-top: -5vw;
+	padding-bottom: 13vw;*/
 }
   
 .wave {
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+	background: url("/public/pictures/wave.svg") repeat-x; 
 	position: relative;
 	top: -198px;
 	width: 6400px;
@@ -503,11 +520,4 @@
 	50% {
 	  	transform: translate3d(0,5px,0);
 	}
-}
-
-
-.test-thing {
-	width: 100%;
-	height: 33vw;
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
 }
