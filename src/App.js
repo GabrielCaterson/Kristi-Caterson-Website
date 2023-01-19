@@ -117,6 +117,8 @@ function App() {
 					<div className="wave"></div>
 					<div className="wave"></div>
 				</div>
+				<section className="below-ocean-panel"></section>
+
 			</section>
 
 			<section className="three-panel below-ocean-panel">

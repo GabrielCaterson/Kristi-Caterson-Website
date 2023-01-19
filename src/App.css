@@ -472,36 +472,42 @@
 	position:relative;
 	bottom:0;
 	left:0;
-	background: #015871;
+	/*background: #015871;*/
+	background: #053468;
 	filter: saturate(100%);
-	box-shadow: inset 0px -45px 25px -25px #053468;
+	/*box-shadow: inset 0px -45px 25px -25px #053468;*/
+	z-index: 10;
 }
 
 .below-ocean-panel {
-	box-shadow: inset 0px 5px 25px 25px #f53468;
+	/*box-shadow: inset 0px -465px 65px -55px #053468;
 	z-index: 10;
-	background-color: purple;
 	position: relative;
-	/*height: 5vw;
+	height: 18vw;
 	width: 100%;
-	padding-top: -5vw;
-	padding-bottom: 13vw;*/
+	margin-top: -18vw;
+	padding-top: 25vw;
+	margin-bottom: 7vw;*/
 }
   
 .wave {
-	background: url("/public/pictures/wave.svg") repeat-x; 
+	background: url("/public/pictures/wave 2.svg") repeat-x; 
 	position: relative;
-	top: -198px;
-	width: 6400px;
-	height: 198px;
+	top: -12vw;
+	width: 300vw;
+	height: 28vw;
 	animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 	transform: translate3d(0, 0, 0);
+	opacity: 1;
+	z-index: -1;
 }
   
 .wave:nth-of-type(2) {
-	top: -370px;
+	top: -40vw;
 	animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-	opacity: 1;
+	opacity: 0.9;
+	z-index: -2;
+
 }
 
 @keyframes wave {
