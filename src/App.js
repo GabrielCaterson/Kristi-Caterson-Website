@@ -5,6 +5,23 @@ import { ThirdImage } from './Components/ThirdImage.js';
 
 
 function App() {
+
+	/*const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+		  	const square = entry.target.querySelector('.wipe-enter');
+	  
+			if (entry.isIntersecting) {
+				square.classList.add('wipe-enter-activator');
+				return; // if we added the class, exit the function
+			}
+	  
+			// We're not intersecting, so remove the class!
+			square.classList.remove('wipe-enter-activator');
+		});
+	});
+	
+	observer.observe(document.querySelector('.crop-1-box'));*/
+	
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -24,7 +41,7 @@ function App() {
 
 
 			<section className="three-panel">
-				<ThirdImage image="Kristi blue 1.jpg" crop=""/>
+				<ThirdImage image="Kristi blue 1.jpg" crop="" animationImage="wipe-enter"/>
 				<ThirdImage image="Kristi blue 3.jpg" crop="crop-2-image" animationFrame="droplet-2"/>
 				<ThirdImage image="Kristi blue 2.jpg" crop=""/>
 			</section>
@@ -32,7 +49,7 @@ function App() {
 			<section className="three-panel"> 
 				<ThirdImage image="Kristi blue 5.jpg" crop=""/>
 				<ThirdImage image="Kristi blue 4.jpg" crop="crop-2-image"/>
-				<ThirdImage image="Kristi blue 7.jpg" crop=""/>
+				<ThirdImage image="Kristi blue 7.jpg" crop="" animationImage="wipe-enter"/>
 			</section>
 
 
@@ -134,7 +151,7 @@ function App() {
 			</section>
 
 			<section className="three-panel">
-				<ThirdImage image="baby blue shells.jpg"/>
+				<ThirdImage image="baby blue shells.jpg" animationImage="wipe-enter"/>
 				<ThirdImage image="hope anchor.jpg"/>
 				<ThirdImage image="diamond anchor.jpg" />
 			</section>

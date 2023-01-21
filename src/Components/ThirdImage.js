@@ -13,7 +13,26 @@ export class ThirdImage extends Component {
 		this.state = {
         }
 	}
+    
+    
 
+    /*componentDidMount() {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                const square = entry.target.querySelector('.wipe-enter');
+            
+                if (entry.isIntersecting) {
+                    square.classList.add('wipe-enter-activator');
+                    return; 
+                }
+            
+                square.classList.remove('wipe-enter-activator');
+            });
+        });
+        
+        observer.observe(document.querySelector('.crop-1-box'));
+    }*/
+    
 	render() {
         
 
