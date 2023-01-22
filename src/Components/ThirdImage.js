@@ -16,25 +16,28 @@ export class ThirdImage extends Component {
     
     
 
-    /*componentDidMount() {
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                const square = entry.target.querySelector('.wipe-enter');
-            
-                if (entry.isIntersecting) {
-                    square.classList.add('wipe-enter-activator');
-                    return; 
-                }
-            
-                square.classList.remove('wipe-enter-activator');
+    componentDidMount() {
+        function entranceAnimation(reference, activator, animation) {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    const square = entry.target.querySelector('.wipe-enter');
+                
+                    if (entry.isIntersecting) {
+                        square.classList.add('wipe-enter-activator');
+                        return; 
+                    }
+                
+                    square.classList.remove('wipe-enter-activator');
+                });
             });
-        });
-        
-        observer.observe(document.querySelector('.crop-1-box'));
-    }*/
+            
+            observer.observe(document.querySelector('.crop-1-box'));
+        }
+
+        entranceAnimation();
+    }
     
 	render() {
-        
 
         return (
 			<section className={ "crop-1-box" + " " + this.props.animationFrame + " " + this.props.overflow } >
