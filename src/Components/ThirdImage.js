@@ -20,7 +20,7 @@ export class ThirdImage extends Component {
         function entranceAnimation(reference, activator, animation) {
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
-                    const square = entry.target.querySelector('.wipe-enter');
+                    const square = entry.target.querySelector('.' + this.props.enterAnimation);
                 
                     if (entry.isIntersecting) {
                         square.classList.add('wipe-enter-activator');
@@ -36,6 +36,27 @@ export class ThirdImage extends Component {
 
         entranceAnimation();
     }
+
+    /*enterAnimation() {
+        entranceAnimation(reference, activator, animation) {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    const square = entry.target.querySelector('.wipe-enter');
+                
+                    if (entry.isIntersecting) {
+                        square.classList.add('wipe-enter-activator');
+                        return; 
+                    }
+                
+                    square.classList.remove('wipe-enter-activator');
+                });
+            });
+            
+            observer.observe(document.querySelector('.crop-1-box'));
+        }
+
+        entranceAnimation();
+    }*/
     
 	render() {
 
@@ -43,6 +64,8 @@ export class ThirdImage extends Component {
 			<section className={ "crop-1-box" + " " + this.props.animationFrame + " " + this.props.overflow } >
                 <img className={ "art-image " + this.props.crop + " " + this.props.animationImage }
                     src={ process.env.PUBLIC_URL + "/pictures/" + this.props.image }></img>
+
+                { /*this.entranceAnimation()*/ }
             </section>
 		);
 	}
