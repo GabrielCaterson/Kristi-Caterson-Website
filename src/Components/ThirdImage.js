@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { Component, useRef } from "react";
 //import {Helmet} from "react-helmet";
-
-
+import useIntersection from './useIntersection.js';
 
 
 let sound = new Audio("/sounds/0m-060-C4.wav");
+
+
 
 export class ThirdImage extends Component {
 	constructor(props) {
@@ -13,31 +14,15 @@ export class ThirdImage extends Component {
 		this.state = {
         }
 	}
-    
-    
 
-    /*componentDidMount() {
-        function entranceAnimation(reference, activator, animation) {
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    const square = entry.target.querySelector('.' + this.props.enterAnimation);
-                
-                    if (entry.isIntersecting) {
-                        square.classList.add('wipe-enter-activator');
-                        return; 
-                    }
-                
-                    square.classList.remove('wipe-enter-activator');
-                });
-            });
-            
-            observer.observe(document.querySelector('.crop-1-box'));
-        }
+    /*const ref = useRef();
+    const inViewport = useIntersection(ref, '0px');
 
-        entranceAnimation();
+    if(inViewport) {
+        console.log('in viewport:', ref.current);
     }*/
 
-    entranceAnimation(reference, activator, animation) {
+    /*componentDidMount() {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 const square = entry.target.querySelector('.wipe-enter');
@@ -52,8 +37,7 @@ export class ThirdImage extends Component {
         });
         
         observer.observe(document.querySelector('.crop-1-box'));
-    }
-
+    }*/
     
 	render() {
 
@@ -62,7 +46,7 @@ export class ThirdImage extends Component {
                 <img className={ "art-image " + this.props.crop + " " + this.props.animationImage }
                     src={ process.env.PUBLIC_URL + "/pictures/" + this.props.image }></img>
 
-                { this.entranceAnimation }
+                { /*this.entranceAnimation */}
             </section>
 		);
 	}

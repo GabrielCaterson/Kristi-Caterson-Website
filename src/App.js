@@ -1,10 +1,21 @@
+import React, { useRef } from 'react';
+import useIntersection from './Components/useIntersection.js'
 import logo from './logo.svg';
 import './App.css';
+
 
 import { ThirdImage } from './Components/ThirdImage.js';
 
 
 function App() {
+
+	const ref = useRef();
+    //const inViewport = useIntersection(ref, '0px');
+    const inViewport = useIntersection(ref, '-200px');
+
+    if (inViewport) {
+        console.log('in viewport:', ref.current);
+    }
 
 	/*const observer = new IntersectionObserver(entries => {
 		entries.forEach(entry => {
@@ -41,7 +52,7 @@ function App() {
 
 
 			<section className="three-panel">
-				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter"/>
+				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter" ref={ ref } />
 				<ThirdImage image="Kristi blue 3.jpg" crop="crop-2-image" animationFrame="droplet-2"/>
 				<ThirdImage image="Kristi blue 2.jpg" crop=""/>
 			</section>
