@@ -8,14 +8,14 @@ import { ThirdImage } from './Components/ThirdImage.js';
 
 
 function App() {
-
+	/*
 	const ref = useRef();
     //const inViewport = useIntersection(ref, '0px');
     const inViewport = useIntersection(ref, '-200px');
 
     if (inViewport) {
         console.log('in viewport:', ref.current);
-    }
+    }*/
 
 	/*const observer = new IntersectionObserver(entries => {
 		entries.forEach(entry => {
@@ -52,7 +52,7 @@ function App() {
 
 
 			<section className="three-panel">
-				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter" ref={ ref } />
+				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter" />
 				<ThirdImage image="Kristi blue 3.jpg" crop="crop-2-image" animationFrame="droplet-2"/>
 				<ThirdImage image="Kristi blue 2.jpg" crop=""/>
 			</section>
@@ -69,6 +69,17 @@ function App() {
 				<ThirdImage image="Love 1.jpg" crop=""/>
 				<ThirdImage image="Love 2.jpg" crop=""/>
 				<ThirdImage image="Love 3.jpg" crop=""/>
+			</section>
+
+			<section className="three-panel"> 
+				<section className="text-box">
+					<p className="text-title"> ABOUT KRISTI </p>
+					<p className="text-body">
+						Kristi Caterson, the principal at LizaBelle Studio LLC, dreams, designs, creates and licenses original artwork to manufacturers, publishers and private clients.
+						<br /> <br />
+						Kristi has a 22 year professional history of creating art and design for many different applications and would love the opportunity to work with you.
+					</p>
+				</section>
 			</section>
 
 

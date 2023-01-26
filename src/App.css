@@ -534,9 +534,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
 	.wipe-enter-activator {
-	  animation: wipe-enter-animation 1s 1;
+	  	animation: wipe-enter-animation 1s 1;
 	}
-  }
+}
 
 @keyframes wipe-enter-animation {
 	0% {
@@ -547,3 +547,14 @@
 	}
 }
 
+.text-box {
+	width: 66.66667vw;
+}
+
+.text-title {
+	font-size: 30px;
+}
+
+.text-body {
+	font-size: 20px;
+}
