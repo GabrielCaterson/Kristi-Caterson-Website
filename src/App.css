@@ -549,12 +549,22 @@
 
 .text-box {
 	width: 66.66667vw;
+	text-align: start;
+	background-color: red;
+	padding: 3vw;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .text-title {
 	font-size: 30px;
+	background-color: blue;
 }
 
 .text-body {
 	font-size: 20px;
+	background-color: green;
 }

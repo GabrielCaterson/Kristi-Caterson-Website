@@ -71,7 +71,7 @@ function App() {
 				<ThirdImage image="Love 3.jpg" crop=""/>
 			</section>
 
-			<section className="three-panel"> 
+			<section className=""> 
 				<section className="text-box">
 					<p className="text-title"> ABOUT KRISTI </p>
 					<p className="text-body">
