@@ -71,15 +71,17 @@ function App() {
 				<ThirdImage image="Love 3.jpg" crop=""/>
 			</section>
 
-			<section className=""> 
+			<section className="text-box-wrapper"> 
 				<section className="text-box">
-					<p className="text-title"> ABOUT KRISTI </p>
+					<p className="text-title"> About Kristi </p>
 					<p className="text-body">
 						Kristi Caterson, the principal at LizaBelle Studio LLC, dreams, designs, creates and licenses original artwork to manufacturers, publishers and private clients.
 						<br /> <br />
 						Kristi has a 22 year professional history of creating art and design for many different applications and would love the opportunity to work with you.
 					</p>
 				</section>
+				<ThirdImage image="home pillows.jpg" crop=""/>
+
 			</section>
 
 
@@ -102,6 +104,20 @@ function App() {
 				<ThirdImage image="Be 3.jpg" crop="crop-2-image" animationImage="wobble"/>
 			</section>
 
+
+
+			<section className="text-box-wrapper"> 
+				<ThirdImage image="home pillows.jpg" crop=""/>
+
+				<section className="text-box">
+					<p className="text-title"> Mission </p>
+					<p className="text-body">
+
+						Kristi's mission is to create great great art and relevant, inspired, joyful design that will increase perceived value, function and design aesthetic of products it is used on. In short, Kristi's mission is to create great art that will help you sell your fabulous product!
+					</p>
+				</section>
+
+			</section>
 
 
 
@@ -149,6 +165,19 @@ function App() {
 				<ThirdImage image="start.jpg" crop="" />
 				<ThirdImage image="transparent.png" crop="" overflow="no-crop" animationImage="flip-bulb"/>
 				<ThirdImage image="conquerer.jpg" crop=""/>
+			</section>
+
+			<section className="text-box-wrapper"> 
+				<section className="text-box">
+					<p className="text-title"> Skills and Education </p>
+					<p className="text-body">
+						Kristi Caterson, the principal at LizaBelle Studio LLC has a BFA with a concentration in Woodworking and Furniture Design from The University of The Arts in Philadelphia, PA.  Kristi specializes in Art, design, art for licensing, product design, hand lettering, painting, drawing, photoshop, branding and logo design, custom artwork, murals, furniture design, interior design and more.
+					</p>
+				</section>
+
+				<ThirdImage image="home pillows.jpg" crop=""/>
+
+
 			</section>
 
 			<section className="ocean-container">
