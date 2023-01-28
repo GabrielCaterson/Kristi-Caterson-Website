@@ -34,7 +34,7 @@ function App() {
 	observer.observe(document.querySelector('.crop-1-box'));*/
 	
 	return (
-		<div className="App">
+		<section className="App">
 			<header className="App-header">
 				<img className="logo-image" 
 					src={ process.env.PUBLIC_URL + "/pictures/KristiCaterson.png" }></img>
@@ -107,7 +107,7 @@ function App() {
 
 
 			<section className="text-box-wrapper"> 
-				<ThirdImage image="home pillows.jpg" crop=""/>
+				<ThirdImage image="holy cow.jpeg" crop=""/>
 
 				<section className="text-box">
 					<p className="text-title"> Mission </p>
@@ -155,7 +155,7 @@ function App() {
 
 			<section className="three-panel">
 				<ThirdImage image="love heart.jpg" crop=""/>
-				<ThirdImage image="truth.png" crop="crop-3-image" animationImage="white-shadow"/>
+				<ThirdImage image="truth.png" crop="crop-3-image"/>
 				<ThirdImage image="circle 3.jpg" crop=""/>
 
 			</section>
@@ -175,16 +175,16 @@ function App() {
 					</p>
 				</section>
 
-				<ThirdImage image="home pillows.jpg" crop=""/>
+				<ThirdImage image="hello love.jpg" animationFrame="droplet-2"/>
 
 
 			</section>
 
 			<section className="ocean-container">
-				<div className="ocean">
-					<div className="wave"></div>
-					<div className="wave"></div>
-				</div>
+				<section className="ocean">
+					<section className="wave"></section>
+					<section className="wave"></section>
+				</section>
 				<section className="below-ocean-panel"></section>
 
 			</section>
@@ -207,8 +207,44 @@ function App() {
 				<ThirdImage image="diamond anchor.jpg" />
 			</section>
 
+
+
+			<section className="socials-container">
+
+				<a  className="socials" 
+					href="https://www.facebook.com/kristi.inspiredesign/" 
+					target="_blank" rel="noopener noreferrer">
+					<section className="socials-image Facebook"></section>
+				</a>
+
+				<a  className="socials" 
+					href="https://www.linkedin.com/in/kristicaterson" 
+					target="_blank" rel="noopener noreferrer">
+					<section className="socials-image LinkedIn"></section>
+				</a>
+
+				<a  className="socials" 
+					href="mailto:kristi@kristicaterson.com" 
+					target="_blank" rel="noopener noreferrer">
+					<section className="socials-image Email"></section>
+				</a>
+
+				<a  className="socials" 
+					href="https://www.pinterest.com/kristileelee/" 
+					target="_blank" rel="noopener noreferrer">
+					<section className="socials-image Pinterest"></section>
+				</a>
+
+				<a  className="socials" 
+					href="http://instagram.com/kristicaterson" 
+					target="_blank" rel="noopener noreferrer">
+					<section className="socials-image Instagram"></section>
+				</a>
+
+			</section>
+
 			
-		</div>
+		</section>
 		
 
 	);
