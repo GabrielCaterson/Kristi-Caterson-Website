@@ -31,7 +31,7 @@ function App() {
 		});
 	});
 	
-	observer.observe(document.querySelector('.crop-1-box'));*/
+	observer.observe(document.querySelector('.crop-36-box'));*/
 	
 	return (
 		<section className="App">
@@ -53,13 +53,13 @@ function App() {
 
 			<section className="three-panel">
 				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter" />
-				<ThirdImage image="Kristi blue 3.jpg" crop="crop-2-image" animationFrame="droplet-2"/>
+				<ThirdImage image="Kristi blue 3.jpg" crop="crop-38-image" animationFrame="droplet-2"/>
 				<ThirdImage image="Kristi blue 2.jpg" crop=""/>
 			</section>
 
 			<section className="three-panel"> 
 				<ThirdImage image="Kristi blue 5.jpg" crop=""/>
-				<ThirdImage image="Kristi blue 4.jpg" crop="crop-2-image"/>
+				<ThirdImage image="Kristi blue 4.jpg" crop="crop-38-image"/>
 				<ThirdImage image="Kristi blue 7.jpg" crop="" enterAnimation="wipe-enter"/>
 			</section>
 
@@ -101,13 +101,13 @@ function App() {
 			<section className="three-panel">
 				<ThirdImage image="Be 1.jpg" crop=""/>
 				<ThirdImage image="Be 2.png" crop=""/>
-				<ThirdImage image="Be 3.jpg" crop="crop-2-image" animationImage="wobble"/>
+				<ThirdImage image="Be 3.jpg" crop="crop-38-image" animationImage="wobble"/>
 			</section>
 
 
 
 			<section className="text-box-wrapper"> 
-				<ThirdImage image="holy cow.jpeg" crop=""/>
+				<ThirdImage image="love pink.jpg" animationFrame="droplet-2"/>
 
 				<section className="text-box">
 					<p className="text-title"> Mission </p>
@@ -129,22 +129,22 @@ function App() {
 
 
 			{/*<section className="three-panel">
-				<ThirdImage image="green banner 1.jpg" crop="crop-4-image"/>
-				<ThirdImage image="green banner 2.jpg" crop="crop-4-image"/>
-				<ThirdImage image="green banner 3.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 1.jpg" crop="crop-333-image"/>
+				<ThirdImage image="green banner 2.jpg" crop="crop-333-image"/>
+				<ThirdImage image="green banner 3.jpg" crop="crop-333-image"/>
 			</section>
 
 			<section className="three-panel">
-				<ThirdImage image="green banner 4.jpg" crop="crop-4-image"/>
-				<ThirdImage image="green banner 5.jpg" crop="crop-4-image"/>
-				<ThirdImage image="green banner 6.jpg" crop="crop-4-image"/>
+				<ThirdImage image="green banner 4.jpg" crop="crop-333-image"/>
+				<ThirdImage image="green banner 5.jpg" crop="crop-333-image"/>
+				<ThirdImage image="green banner 6.jpg" crop="crop-333-image"/>
 			</section>*/}
 
 
 			<section className="three-panel">
 				<ThirdImage image="tears.jpg" crop=""/>
 				<ThirdImage image="circle 2.jpg" crop="" animationImage="spin"/>
-				<ThirdImage image="panels.jpg" crop="crop-2-image" animationFrame="droplet-3"/>
+				<ThirdImage image="panels.jpg" crop="crop-38-image" animationFrame="droplet-3"/>
 			</section>
 
 			<section className="three-panel">
@@ -155,7 +155,7 @@ function App() {
 
 			<section className="three-panel">
 				<ThirdImage image="love heart.jpg" crop=""/>
-				<ThirdImage image="truth.png" crop="crop-3-image"/>
+				<ThirdImage image="truth.png" crop="crop-30-image"/>
 				<ThirdImage image="circle 3.jpg" crop=""/>
 
 			</section>
@@ -190,7 +190,7 @@ function App() {
 			</section>
 
 			<section className="three-panel below-ocean-panel">
-				<ThirdImage image="blue anchors.jpg" animationImage="wobble wobble-duration-2" crop="crop-1-image"/>
+				<ThirdImage image="blue anchors.jpg" animationImage="wobble wobble-duration-2" crop="crop-36-image"/>
 				<ThirdImage image="sail away.jpg"/>
 				<ThirdImage image="blue shells.jpg"/>
 			</section>
@@ -198,7 +198,7 @@ function App() {
 			<section className="three-panel">
 				<ThirdImage image="mermaids.jpg"/>
 				<ThirdImage image="pink anchor.jpg"/>
-				<ThirdImage image="smooth sea.jpg" animationImage="wobble" crop="crop-1-image"/>
+				<ThirdImage image="smooth sea.jpg" animationImage="wobble" crop="crop-36-image"/>
 			</section>
 
 			<section className="three-panel">

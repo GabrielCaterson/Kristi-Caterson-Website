@@ -14,10 +14,15 @@
 	--color-b-5: rgba(170,170,180,1);
 	--color-b-6: rgba(150,150,160,1);
 
-	--color-c-1: #ecdcff;
+	/*--color-c-1: #ecdcff;
 	--color-c-2: #d5baff;
 	--color-c-3: #5e00c1;
-	--color-c-4: #42008a;
+	--color-c-4: #42008a;*/
+
+	--color-c-1: #d6e3ff;
+	--color-c-2: #a9c7ff;
+	--color-c-3: #00468b;
+	--color-c-4: #003063;
 
 	background-color: var(--color-b-1);
 
@@ -69,13 +74,10 @@
 	border-radius: 2% 2% 2% 2% / 10% 10% 20% 20%;
   	animation: header-animation 5s ease-in-out normal infinite;
 
-
 	/*background-image: url("/public/pictures/brushstroke 2.png");*/
 	background-size: 120% 320%;
 	background-position: 10%;
 	color: var(--color-a-1);
-
-
 }
 
 @keyframes header-animation {
@@ -147,20 +149,24 @@
 	overflow: visible;
 }
 
-.crop-1-image {
+.crop-36-image {
   	width: 36vw;
 }
 
-.crop-2-image {
+.crop-38-image {
   	width: 38vw;
 }
 
-.crop-3-image {
+.crop-30-image {
 	width: 30vw;
 }
 
-.crop-4-image {
+.crop-333-image {
 	width: 33.3333333vw;
+}
+
+.crop-25-image {
+	width: 25vw;
 }
 
 .white-shadow {
