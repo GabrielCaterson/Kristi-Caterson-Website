@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Kristi-Caterson-Website/static/css/main.b15ef1ea.css",
+    "main.js": "/Kristi-Caterson-Website/static/js/main.79e63a94.js",
+    "static/js/787.27aaf18a.chunk.js": "/Kristi-Caterson-Website/static/js/787.27aaf18a.chunk.js",
+    "static/media/Facebook.png": "/Kristi-Caterson-Website/static/media/Facebook.e8fc291adb98ef26f06a.png",
+    "static/media/LinkedIn.png": "/Kristi-Caterson-Website/static/media/LinkedIn.ee7155b3b118dbf6a012.png",
+    "static/media/Email.png": "/Kristi-Caterson-Website/static/media/Email.35b968e31ed7da782cf9.png",
+    "static/media/Pinterest.png": "/Kristi-Caterson-Website/static/media/Pinterest.58e96ee55d78fe475476.png",
+    "static/media/Instagram.png": "/Kristi-Caterson-Website/static/media/Instagram.704c6120a43af9cfb210.png",
+    "static/media/light blue.jpg": "/Kristi-Caterson-Website/static/media/light blue.203f31e87687bc696cf9.jpg",
+    "static/media/light navy.jpg": "/Kristi-Caterson-Website/static/media/light navy.a25763efeadd90150eea.jpg",
+    "static/media/logo.svg": "/Kristi-Caterson-Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Kristi-Caterson-Website/index.html",
+    "static/media/wave 2.svg": "/Kristi-Caterson-Website/static/media/wave 2.002e72a03c448d885f58.svg",
+    "main.b15ef1ea.css.map": "/Kristi-Caterson-Website/static/css/main.b15ef1ea.css.map",
+    "main.79e63a94.js.map": "/Kristi-Caterson-Website/static/js/main.79e63a94.js.map",
+    "787.27aaf18a.chunk.js.map": "/Kristi-Caterson-Website/static/js/787.27aaf18a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b15ef1ea.css",
+    "static/js/main.79e63a94.js"
+  ]
+}
