@@ -54,13 +54,13 @@ function App() {
 			<section className="three-panel">
 				<ThirdImage image="Kristi blue 1.jpg" crop="" enterAnimation="wipe-enter" />
 				<ThirdImage image="Kristi blue 3.jpg" crop="crop-38-image" animationFrame="droplet-2"/>
-				<ThirdImage image="Kristi blue 2.jpg" crop=""/>
+				<ThirdImage image="Kristi blue 7.jpg" crop=""/>
 			</section>
 
 			<section className="three-panel"> 
 				<ThirdImage image="Kristi blue 5.jpg" crop=""/>
 				<ThirdImage image="Kristi blue 4.jpg" crop="crop-38-image"/>
-				<ThirdImage image="Kristi blue 7.jpg" crop="" enterAnimation="wipe-enter"/>
+				<ThirdImage image="Kristi blue 2.jpg" crop="" enterAnimation="wipe-enter"/>
 			</section>
 
 

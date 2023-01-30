@@ -491,9 +491,11 @@
   
 .wave {
 	background: url("/public/pictures/wave 2.svg") repeat-x; 
+	background-size: 100vw;
 	position: relative;
 	top: -12vw;
-	width: 300vw;
+	/*width: 300vw;*/
+	width: 200vw;
 	height: 28vw;
 	animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 	transform: translate3d(0, 0, 0);
@@ -514,16 +516,20 @@
 	  	margin-left: 0;
 	}
 	100% {
-	  	margin-left: -1600px;
+		/*margin-left: -1600px;*/
+
+	  	margin-left: -100vw;
 	}
 }
 
 @keyframes swell {
 	0%, 100% {
-	  	transform: translate3d(0,-25px,0);
+	  	/*transform: translate3d(0,-25px,0);*/
+		transform: translate3d(0,-1vw,0);
 	}
 	50% {
-	  	transform: translate3d(0,5px,0);
+	  	/*transform: translate3d(0,5px,0);*/
+		transform: translate3d(0,0.5vw,0);
 	}
 }
 
