@@ -34,10 +34,12 @@ function App() {
 	observer.observe(document.querySelector('.crop-36-box'));*/
 	
 	return (
-		<section className="App">
+		<section className="App blur-enter">
 			<header className="App-header">
 				<img className="logo-image" 
 					src={ process.env.PUBLIC_URL + "/pictures/KristiCaterson.png" }></img>
+
+				
 
 				<section className="header-outside">
 					<p className="header-inside">

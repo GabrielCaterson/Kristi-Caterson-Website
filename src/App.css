@@ -33,6 +33,22 @@
 	color: var(--color-a-1);
 }
 
+.blur-enter {
+	animation-name: blur-enter-animation;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+}
+
+@keyframes blur-enter-animation {
+	0% {
+		filter: blur(200px);
+	}
+	100% {
+		filter: blur(0px);
+	}
+}
+
 .App-header {
 	/*background-color: #282c34;*/
 	
@@ -47,6 +63,18 @@
 
 .logo-image {
   	width: max(300px, 30%);
+}
+
+.page-title {
+	font-size: 60px;
+	font-weight: 949;
+	background-image: url("/public/pictures/brushstrokes.jpg");
+	background-size: 160%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-position-y: 90%;
+	background-position-x: 70%;
 }
 
 .header-outside {
@@ -491,11 +519,10 @@
   
 .wave {
 	background: url("/public/pictures/wave 2.svg") repeat-x; 
-	background-size: 100vw;
+	background-size: 101vw;
 	position: relative;
 	top: -12vw;
-	/*width: 300vw;*/
-	width: 200vw;
+	width: 202vw;
 	height: 28vw;
 	animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 	transform: translate3d(0, 0, 0);
@@ -516,19 +543,15 @@
 	  	margin-left: 0;
 	}
 	100% {
-		/*margin-left: -1600px;*/
-
-	  	margin-left: -100vw;
+	  	margin-left: -101vw;
 	}
 }
 
 @keyframes swell {
 	0%, 100% {
-	  	/*transform: translate3d(0,-25px,0);*/
 		transform: translate3d(0,-1vw,0);
 	}
 	50% {
-	  	/*transform: translate3d(0,5px,0);*/
 		transform: translate3d(0,0.5vw,0);
 	}
 }
