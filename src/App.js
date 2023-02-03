@@ -39,8 +39,6 @@ function App() {
 				<img className="logo-image" 
 					src={ process.env.PUBLIC_URL + "/pictures/KristiCaterson.png" }></img>
 
-				
-
 				<section className="header-outside">
 					<p className="header-inside">
 						Inspired Design for Gracious Living
@@ -108,6 +106,13 @@ function App() {
 
 
 
+			<section className="three-panel short-panel">
+				<ThirdImage image="green pillow 1.jpg" crop=""/>
+				<ThirdImage image="green pillow 2.jpg" crop=""/>
+				<ThirdImage image="green pillow 3.jpg" crop=""/>
+			</section>
+
+			
 			<section className="text-box-wrapper"> 
 				<ThirdImage image="love pink.jpg" animationFrame="droplet-2"/>
 
@@ -123,11 +128,6 @@ function App() {
 
 
 
-			<section className="three-panel short-panel">
-				<ThirdImage image="green pillow 1.jpg" crop=""/>
-				<ThirdImage image="green pillow 2.jpg" crop=""/>
-				<ThirdImage image="green pillow 3.jpg" crop=""/>
-			</section>
 
 
 			{/*<section className="three-panel">

@@ -37,7 +37,7 @@
 	animation-name: blur-enter-animation;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 }
 
 @keyframes blur-enter-animation {
