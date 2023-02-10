@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kristi-Caterson-Website/static/css/main.e1662d34.css",
+    "main.css": "/Kristi-Caterson-Website/static/css/main.124467f0.css",
     "main.js": "/Kristi-Caterson-Website/static/js/main.09c50d5b.js",
     "static/js/787.27aaf18a.chunk.js": "/Kristi-Caterson-Website/static/js/787.27aaf18a.chunk.js",
     "static/media/Facebook.png": "/Kristi-Caterson-Website/static/media/Facebook.e8fc291adb98ef26f06a.png",
@@ -12,14 +12,14 @@
     "static/media/brushstrokes.jpg": "/Kristi-Caterson-Website/static/media/brushstrokes.017fb55cda56ec8815f5.jpg",
     "static/media/light navy.jpg": "/Kristi-Caterson-Website/static/media/light navy.a25763efeadd90150eea.jpg",
     "static/media/logo.svg": "/Kristi-Caterson-Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/wave 2.svg": "/Kristi-Caterson-Website/static/media/wave 2.88f83eac1ea5ae073c33.svg",
     "index.html": "/Kristi-Caterson-Website/index.html",
-    "static/media/wave 2.svg": "/Kristi-Caterson-Website/static/media/wave 2.002e72a03c448d885f58.svg",
-    "main.e1662d34.css.map": "/Kristi-Caterson-Website/static/css/main.e1662d34.css.map",
+    "main.124467f0.css.map": "/Kristi-Caterson-Website/static/css/main.124467f0.css.map",
     "main.09c50d5b.js.map": "/Kristi-Caterson-Website/static/js/main.09c50d5b.js.map",
     "787.27aaf18a.chunk.js.map": "/Kristi-Caterson-Website/static/js/787.27aaf18a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1662d34.css",
+    "static/css/main.124467f0.css",
     "static/js/main.09c50d5b.js"
   ]
 }
